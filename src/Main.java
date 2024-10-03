@@ -12,7 +12,7 @@ public class Main {
         if (number1<number2) {
             System.out.println(number2 + "es el mayor");
         }else{
-            if(number2>number1){System.out.println(number1 + "es el mayor");
+            if(number2<number1){System.out.println(number1 + "es el mayor");
             }else{
                 System.out.println("Los numeros son iguales");
             }
